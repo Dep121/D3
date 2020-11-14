@@ -1,0 +1,31 @@
+.barChart,
+.barChartFormated {
+  rect {
+    fill: steelblue;
+  }
+
+  text {
+    font-family: sans-serif;
+  }
+
+  .tick {
+    text {
+      font-size: 1.7em;
+      fill: #635f5d;
+    }
+
+    line {
+      stroke: #c0c0bb;
+    }
+  }
+
+  .xAxisLabel {
+    font-size: 4em;
+    fill: #8e8883;
+  }
+
+  .chartTitle {
+    font-size: 3em;
+    fill: #635f5d;
+  }
+}
